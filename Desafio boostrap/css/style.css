@@ -1,0 +1,73 @@
+header {
+    background-color: rgb(241, 208, 163);
+    padding-top: 15px;
+}
+.headerH1 {
+    color: rgb(20, 15, 2);
+    background-color: rgb(241, 208, 163);
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 450px;
+    font-display: 200px;
+    text-align: center;
+    border: solid black 5px;
+    border-radius: 8px;
+    width :350px;
+    text-align: center;
+    position: relative;
+    left: 500px;
+}
+.headerDiv {
+    text-align: center;
+}
+.mainMasterDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 100px;
+}
+.mainH2 {
+    margin-top:40px;
+}
+.pfIndex1 {
+    background-color: rgb(241, 208, 163);
+    color: rgb(10, 7, 0);
+    width: 500px;
+    height: 100px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    margin: 25px;
+}
+.mainIndex {
+    height: 900px;
+    background-color: rgb(241, 208, 163);
+    width: 100%;
+}
+.mainDiv3 {
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100
+}
+.foto1 {
+    width: 621px;
+    height: 321px;
+    display: block;
+    margin: auto;
+
+}
+.local-de-comida {
+    width: 1021px;
+    height: 321px;
+    display: block;
+    margin: auto;
+}
+.img {
+    display: block;
+    margin: auto;
+}
