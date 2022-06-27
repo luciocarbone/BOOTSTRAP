@@ -1,0 +1,323 @@
+$colorBackGround: rgb(243, 185, 109);
+$font: 'Roboto', sans-serif;
+$colorHeader: rgb(241, 208, 163);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------ NAV ------ */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: $colorBackGround;
+    padding: 10px;
+    border-bottom: solid 2px black;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.navUl {
+    position: relative;
+    left: 70px;
+    top: 9px;
+    font-family: $font;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: $colorBackGround;
+}
+
+.navLi {
+    display: inline-block;
+    padding: 10px 80px;
+    background-color: $colorBackGround;
+    color: rgb(7, 0, 0);
+    border-right: dotted rgb(10, 0, 0) 2px;
+}
+
+.linkLi {
+    text-decoration: none;
+    color: rgb(12, 1, 1);
+}
+
+.uniqueLi {
+    border-left: dotted rgb(10, 10, 0) 2px;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+}
+
+/* ------ INDEX ------ */
+
+header {
+    background-color: $colorHeader;
+    padding-top: 15px;
+}
+
+.headerH1 {
+    color: rgb(20, 15, 2);
+    background-color: $colorHeader;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 450px;
+    font-display: 200px;
+    text-align: center;
+    border: solid black 5px;
+    border-radius: 8px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    left: 500px;
+}
+
+.headerDiv {
+    text-align: center;
+}
+
+.mainMasterDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 100px;
+}
+
+.mainH2 {
+    margin-top: 40px;
+}
+
+.pfIndex1 {
+    background-color: $colorHeader;
+    color: rgb(10, 7, 0);
+    width: 500px;
+    height: 100px;
+    position: relative;
+    font-family: $font;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    margin: 25px;
+}
+
+.mainIndex {
+    height: 900px;
+    background-color: $colorHeader;
+    width: 100%;
+}
+
+.mainDiv3 {
+    text-align: center;
+    padding-top: 80px;
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 100
+}
+
+.foto1 {
+    width: 621px;
+    height: 321px;
+    display: block;
+    margin: auto;
+
+}
+
+.local-de-comida {
+    width: 1021px;
+    height: 321px;
+    display: block;
+    margin: auto;
+}
+
+.img {
+    display: block;
+    margin: auto;
+}
+
+/* ------ NOSOTROS ------ */
+
+.mainNosotros {
+    height: 500px;
+    background-color: $colorHeader;
+}
+
+.nosotrosDivConteiner {
+    font-family: $font;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    width: 500px;
+}
+
+.nosotrosDiv {
+    height: 100px;
+    width: 500px;
+    position: relative;
+    left: 420px;
+    padding-top: 20px;
+}
+
+/* ------ CONTACTANOS ------ */
+
+.mainContactanos {
+    height: 800px;
+    background-color: $colorHeader;
+}
+
+.contactanosDivConteiner {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formDivConteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.main_form {
+    height: 30px;
+    background-color: $colorHeader;
+    padding: 5px;
+}
+
+.main_divFieldset {
+    color: #000000;
+    font-size: 14px;
+}
+
+.main_inputContactanos {
+    border-color: #000000;
+    border: groove;
+}
+
+.fieldset {
+    width: 50px;
+    border-color: #ffffff;
+    color: #090e3d;
+    border: groove;
+    bottom: 2rem;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.fieldset1 {
+    width: 50px;
+    border-color: #ffffff;
+    color: #090e3d;
+    border: groove;
+    bottom: 2rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    position: relative;
+    left: 60px;
+}
+
+.input_enviarContactanos {
+    text-align: center;
+    background-color: #2f4f4f;
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.contactanosP {
+    position: relative;
+    left: 420px;
+    width: 500px;
+    margin: 40px 0px 40px 0px;
+    padding: 40px 0px 40px 0px;
+    font-family: $font;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+/* ------ SUCURSALES ------ */
+
+.sucursalesDivConteiner {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $colorHeader;
+    padding: 20px;
+}
+
+.sucursalesDiv1 {
+    width: 400px;
+    height: 400px;
+    padding: 0px 30px 0px 50px;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mainsucursales {
+    background-color: $colorHeader;
+    padding: 15px;
+}
+
+
+/* ------ FOOTER ------ */
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 171, 1);
+    font-size: small;
+    font-family: $font;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.divFooter {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 450px;
+    font-family: $font;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.redes-sociales {
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+.mainServicios {
+    height: 900px;
+    background-color: $colorHeader;
+}
+
+.serviciosDivConteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.serviciosDiv {
+    background-color: #a38958;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.imgServicios {
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+}
